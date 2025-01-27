@@ -4,7 +4,6 @@ import EmailIcon from '@mui/icons-material/Email';
 import Avatar from "../../../../assets/Images/Avatar.jpg";
 import StyledButton from "../../../../Components/StyledButton/StyledButton";
 import { AnimatedBackground } from "../../../../Components/AnimatedBackground/AnimatedBackground";
-import { Padding } from "@mui/icons-material";
 
 const Hero = () => {
 
