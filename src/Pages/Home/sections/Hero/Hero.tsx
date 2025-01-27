@@ -1,8 +1,9 @@
-import { Container, Grid, styled, Typography } from "@mui/material";
+import { Box, Container, Grid, styled, Typography } from "@mui/material";
 import DownloadIcon from '@mui/icons-material/Download';
 import EmailIcon from '@mui/icons-material/Email';
 import Avatar from "../../../../assets/Images/Avatar.jpg";
 import StyledButton from "../../../../Components/StyledButton/StyledButton";
+import { AnimatedBackground } from "../../../../Components/AnimatedBackground/AnimatedBackground";
 
 const Hero = () => {
 
@@ -26,12 +27,19 @@ const Hero = () => {
         <Container maxWidth="lg">
           <Grid container spacing={2}>
             <Grid item xs={12} md={5}>
-              <StyleImg src={Avatar} />
+              <Box position="relative">
+                <Box position="absolute" width={"100%"} top={-100} right={0}>
+                  <AnimatedBackground/>
+                </Box>
+                <Box position="relative" textAlign="center">
+                  <StyleImg src={Avatar} />
+                </Box>
+              </Box>
             </Grid>
             <Grid item xs={12} md={7}>
-              <Typography color="primary.contrastText" variant="h1" textAlign="center">Ralph S Mateus</Typography>
+              <Typography color="primary.contrastText" variant="h1" textAlign="center" pb={2}>Ralph S Mateus</Typography>
               <Typography color="primary.contrastText" variant="h2" textAlign="center">I'm a Softwere Engineer</Typography>
-              <Grid container display="flex" justifyContent="center" spacing={3}>
+              <Grid container display="flex" justifyContent="center" spacing={3} pt={3}>
                 <Grid item xs={12} md={4} display="flex" justifyContent="center">
                   <StyledButton>
                     <DownloadIcon/>  
