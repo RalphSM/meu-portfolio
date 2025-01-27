@@ -21,6 +21,7 @@ const NavBar = () => {
             <StyledToobar>
                 <MenuItem component="a" href="#home">Home</MenuItem>
                 <MenuItem component="a" href="#sobre">Sobre</MenuItem>
+                <MenuItem component="a" href="#skills">Habilidades</MenuItem>
                 <MenuItem component="a" href="#projetos">Projetos</MenuItem>
 
                 <IconButton
