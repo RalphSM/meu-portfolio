@@ -15,7 +15,7 @@ const Skills = () => {
   }));
 
   return (
-    <Box py={8} bgcolor="background.default">
+    <Box py={8} bgcolor="background.default" id="skills">
       <Container maxWidth="lg">
         <Typography variant="h3" color="textPrimary" textAlign="center" gutterBottom>
           Habilidades
