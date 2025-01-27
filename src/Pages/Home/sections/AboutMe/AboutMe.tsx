@@ -1,4 +1,4 @@
-import { Box, Container, Grid, styled, Typography } from "@mui/material";
+import { Box, Container, Divider, Grid, styled, Typography } from "@mui/material";
 import WorkIcon from '@mui/icons-material/Work';
 import SchoolIcon from '@mui/icons-material/School';
 
@@ -49,10 +49,11 @@ const AboutMe = () => {
           </Grid>
         </Grid>
         <Box mt={4}>
-          <Typography variant="body1" color="textSecondary">
+          <Typography variant="body1" color="textSecondary" mb="100px">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras porta semper velit vel rutrum. 
             Aliquam vulputate, nisi eget tristique mattis, nisi sem faucibus eros, a auctor felis sem ut mauris.
           </Typography>
+          <Divider sx={{ marginBottom: 4 }} />
         </Box>
       </Container>
     </StyledSection>

@@ -47,7 +47,7 @@ const NavBar = () => {
         onClose={toggleDrawer}
         sx={{
           '& .MuiDrawer-paper': {
-            width: 100,
+            width: "40%",
             backgroundColor: "#d3d3d3",
             color: "#fff",
             borderLeft: "2px solid #444",
