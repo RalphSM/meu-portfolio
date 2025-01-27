@@ -47,7 +47,7 @@ const Projects = () => {
   ];
 
   return (
-    <Box py={8} sx={{  backgroundColor: theme.palette.primary.main, }}>
+    <Box py={8} sx={{  backgroundColor: theme.palette.primary.main, }} id="projetos">
       <Container maxWidth="lg">
         <Typography variant="h3" color="#ffffff" textAlign="center" gutterBottom>
           Projetos

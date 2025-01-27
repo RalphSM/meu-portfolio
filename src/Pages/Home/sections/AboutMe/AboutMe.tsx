@@ -21,7 +21,7 @@ const AboutMe = () => {
   }));
 
   return (
-    <StyledSection>
+    <StyledSection id="sobre">
       <Container maxWidth="lg">
         <Typography variant="h3" color="textPrimary" gutterBottom>
           Sobre

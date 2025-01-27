@@ -10,11 +10,11 @@ const NavBar = () => {
 
     return (
       <>
-        <AppBar position="absolute">
+        <AppBar position="fixed">
             <StyledToobar>
-                <MenuItem>Sobre</MenuItem>
-                <MenuItem>Habilidade</MenuItem>
-                <MenuItem>Projetos</MenuItem>
+                <MenuItem component="a" href="#home">Home</MenuItem>
+                <MenuItem component="a" href="#sobre">Sobre</MenuItem>
+                <MenuItem component="a" href="#projetos">Projetos</MenuItem>
             </StyledToobar>
         </AppBar>
       </>
