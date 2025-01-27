@@ -4,7 +4,7 @@ import SchoolIcon from '@mui/icons-material/School';
 
 const AboutMe = () => {
   const StyledSection = styled("section")(({ theme }) => ({
-    backgroundColor: theme.palette.background.default,
+    backgroundColor: "#d3d3d3",
     padding: theme.spacing(8, 0),
     textAlign: "center",
   }));
