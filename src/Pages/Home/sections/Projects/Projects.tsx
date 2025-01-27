@@ -20,7 +20,7 @@ const Projects = () => {
     overflow: "hidden",
     transition: "background-color 0.3s ease",
     "&:hover": {
-      backgroundColor: "#4f4f4f", // Cinza mais claro no hover
+      backgroundColor: "#4f4f4f",
     },
   }));
 
@@ -50,7 +50,7 @@ const Projects = () => {
     <Box py={8} sx={{  backgroundColor: theme.palette.primary.main, }}>
       <Container maxWidth="lg">
         <Typography variant="h3" color="#ffffff" textAlign="center" gutterBottom>
-          Projects
+          Projetos
         </Typography>
         <Grid container spacing={4} mt={4}>
           {projects.map((project, index) => (

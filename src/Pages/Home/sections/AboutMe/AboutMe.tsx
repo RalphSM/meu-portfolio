@@ -24,14 +24,14 @@ const AboutMe = () => {
     <StyledSection>
       <Container maxWidth="lg">
         <Typography variant="h3" color="textPrimary" gutterBottom>
-          About Me
+          Sobre
         </Typography>
         <Grid container spacing={4} justifyContent="center">
           <Grid item xs={12} md={4}>
             <StyledCard>
               <WorkIcon fontSize="large" />
               <Typography variant="h6" mt={2}>
-                Experience
+                Experiencia
               </Typography>
               <Typography variant="body1">#</Typography>
               <Typography variant="body2">#</Typography>
@@ -41,7 +41,7 @@ const AboutMe = () => {
             <StyledCard>
               <SchoolIcon fontSize="large" />
               <Typography variant="h6" mt={2}>
-                Education
+                Formação
               </Typography>
               <Typography variant="body1">#</Typography>
               <Typography variant="body2">#</Typography>

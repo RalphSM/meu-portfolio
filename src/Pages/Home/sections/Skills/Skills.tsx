@@ -18,7 +18,7 @@ const Skills = () => {
     <Box py={8} bgcolor="background.default">
       <Container maxWidth="lg">
         <Typography variant="h3" color="textPrimary" textAlign="center" gutterBottom>
-          Skills
+          Habilidades
         </Typography>
         <Grid container spacing={2} justifyContent="center" mt={4}>
           {[
