@@ -6,9 +6,10 @@ const NavBar = () => {
 
     const [openDrawer, setOpenDrawer] =useState(false);
 
+
     const StyledToobar = styled(Toolbar)(({ })=> ({
         display: "flex",
-        justifyContent: "space-evenly"
+        justifyContent: "space-between"
       })) 
 
       const toggleDrawer = (open: boolean ) => {
@@ -23,20 +24,21 @@ const NavBar = () => {
       <>
         <AppBar position="fixed">
             <StyledToobar>
+              <div>  
                 <MenuItem component="a" href="#home" sx={{ display: { xs: 'none', md: 'block' } }}>Home</MenuItem>
                 <MenuItem component="a" href="#sobre" sx={{ display: { xs: 'none', md: 'block' } }}>Sobre</MenuItem>
                 <MenuItem component="a" href="#skills" sx={{ display: { xs: 'none', md: 'block' } }}>Habilidades</MenuItem>
                 <MenuItem component="a" href="#projetos" sx={{ display: { xs: 'none', md: 'block' } }}>Projetos</MenuItem>
-
-                <IconButton
-                color="inherit"
-                aria-label="menu"
-                edge= "end"
-                onClick={ ()  => toggleDrawer(true) } 
-                sx={{ display:{xs:"block", md:"none"} }}
-                >
-                  <MenuIcon/>
-                </IconButton>
+              </div>
+              <IconButton
+              color="inherit"
+              aria-label="menu"
+              edge= "end"
+              onClick={ ()  => toggleDrawer(true) } 
+              sx={{ display:{xs:"block", md:"none"} }}
+              >
+                <MenuIcon/>
+              </IconButton>
             </StyledToobar>
         </AppBar>
         <Drawer
