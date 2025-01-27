@@ -4,6 +4,7 @@ import EmailIcon from '@mui/icons-material/Email';
 import Avatar from "../../../../assets/Images/Avatar.jpg";
 import StyledButton from "../../../../Components/StyledButton/StyledButton";
 import { AnimatedBackground } from "../../../../Components/AnimatedBackground/AnimatedBackground";
+import { Padding } from "@mui/icons-material";
 
 const Hero = () => {
 
@@ -12,6 +13,13 @@ const Hero = () => {
     height: "100vh",
     display: "flex",
     alignItems: "center",
+    [theme.breakpoints.up('xs')]: {
+      PaddingTop: "100px"
+    },
+
+    [theme.breakpoints.up('md')]: {
+      PaddingTop: "0px"
+    }
   }))
 
   const StyleImg = styled("img")(({ theme })=> ({
@@ -41,7 +49,7 @@ const Hero = () => {
               <Typography color="primary.contrastText" variant="h2" textAlign="center">I'm a Softwere Engineer</Typography>
               <Grid container display="flex" justifyContent="center" spacing={3} pt={3}>
                 <Grid item xs={12} md={4} display="flex" justifyContent="center">
-                  <StyledButton>
+                  <StyledButton onClick={()=> console.log("download")}>
                     <DownloadIcon/>  
                       <Typography>
                         Dowload CV
@@ -49,7 +57,7 @@ const Hero = () => {
                   </StyledButton>
                 </Grid>
                 <Grid item xs={12} md={4} display="flex" justifyContent="center">
-                  <StyledButton>
+                  <StyledButton onClick={()=> console.log("contact")}>
                     <EmailIcon/>
                       <Typography>
                         Contact me
