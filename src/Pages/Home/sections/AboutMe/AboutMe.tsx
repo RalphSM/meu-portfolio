@@ -53,7 +53,7 @@ const AboutMe = () => {
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras porta semper velit vel rutrum. 
             Aliquam vulputate, nisi eget tristique mattis, nisi sem faucibus eros, a auctor felis sem ut mauris.
           </Typography>
-          <Divider sx={{ marginBottom: 4 }} />
+          <Divider sx={{ marginBottom: 4 }} color= "#000" />
         </Box>
       </Container>
     </StyledSection>
