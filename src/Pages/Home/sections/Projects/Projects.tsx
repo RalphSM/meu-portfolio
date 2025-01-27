@@ -77,12 +77,12 @@ const Projects = () => {
                   </Typography>
                   <Grid container spacing={2} mt={2}>
                     <Grid item xs={6}>
-                      <StyledButton variant="outlined" fullWidth href={project.projectLink} sx={{ color: "#ffffff", borderColor: "#ffffff" }}>
+                      <StyledButton variant="outlined" fullWidth href="#" sx={{ color: "#ffffff", borderColor: "#ffffff" }}>
                         View Project
                       </StyledButton>
                     </Grid>
                     <Grid item xs={6}>
-                      <StyledButton variant="outlined" fullWidth href={project.codeLink} sx={{ color: "#ffffff", borderColor: "#ffffff" }}>
+                      <StyledButton variant="outlined" fullWidth href="#" sx={{ color: "#ffffff", borderColor: "#ffffff" }}>
                         View Code
                       </StyledButton>
                     </Grid>
