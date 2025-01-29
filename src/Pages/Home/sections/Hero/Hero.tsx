@@ -45,7 +45,7 @@ const Hero = () => {
             </Grid>
             <Grid item xs={12} md={7}>
               <Typography color="primary.contrastText" variant="h1" textAlign="center" pb={2}>Ralph S Mateus</Typography>
-              <Typography color="primary.contrastText" variant="h2" textAlign="center">Desenvolvedor Frontend</Typography>
+              <Typography color="primary.contrastText" variant="h2" textAlign="center">Desenvolvedor Front-end</Typography>
               <Grid container display="flex" justifyContent="center" spacing={3} pt={3}>
                 <Grid item xs={12} md={4} display="flex" justifyContent="center">
                   <StyledButton onClick={()=> console.log("download")}>

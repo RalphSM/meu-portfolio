@@ -11,7 +11,21 @@ let theme = createTheme({
     },
 
     typography: {
-        fontFamily: "Helvetica Neue"
+        fontFamily: "Helvetica Neue",
+        h1: {
+            fontFamily: "Cinzel",
+            fontSize: "83px" 
+        },
+
+        h2: {
+            fontFamily: "Cinzel",
+            fontSize: "48px" 
+        },
+
+        h3: {
+            fontFamily: "Alumni Sans Pinstripe",
+            fontWeight: 800 
+        },
     }
 });
 
