@@ -49,7 +49,7 @@ const AboutMe = () => {
           </Grid>
         </Grid>
         <Box mt={4}>
-          <Typography variant="body1" color="textSecondary" mb="100px">
+          <Typography variant="body1" color="textSecondary" mb="160px">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras porta semper velit vel rutrum. 
             Aliquam vulputate, nisi eget tristique mattis, nisi sem faucibus eros, a auctor felis sem ut mauris.
           </Typography>
